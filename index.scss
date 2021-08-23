@@ -38,7 +38,7 @@ body {
                     a{
                         text-decoration: none;
                         color: white;
-                        font-size: 1.2em;
+                        font-size: 1.1rem;
                     }
                 }
             }
@@ -60,6 +60,38 @@ body {
             }
             h1{
                 font-weight: 400;
+            }
+        }
+    }
+
+    .skills-section{
+        text-align: center;
+        background: #264653;
+        color: white;
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                object-fit: contain;
+                width: 4em;
+                margin-right: 0.5em;
+            }
+        }
+        ul{
+            display: inline-grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 10vw;
+            li{
+
+                img{
+                    position: relative;
+                    top:0.4em;
+                }
+                list-style-type: none;
+                text-align: left;
+                margin-top: 0.5em;
+                font-size: 1.2em;
             }
         }
     }

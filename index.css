@@ -51,7 +51,7 @@ body {
 .app .navigation header nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.1rem;
 }
 
 .app .hero {
@@ -74,5 +74,50 @@ body {
 
 .app .hero .container h1 {
   font-weight: 400;
+}
+
+.app .skills-section {
+  text-align: center;
+  background: #264653;
+  color: white;
+}
+
+.app .skills-section header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .skills-section header img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 4em;
+  margin-right: 0.5em;
+}
+
+.app .skills-section ul {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10vw;
+}
+
+.app .skills-section ul li {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 0.5em;
+  font-size: 1.2em;
+}
+
+.app .skills-section ul li img {
+  position: relative;
+  top: 0.4em;
 }
 /*# sourceMappingURL=index.css.map */
