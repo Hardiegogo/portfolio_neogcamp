@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="app">
-        <div class="navigation">
+        <div class="navigation" >
             <header>
                 <div class="nav__heading">
                     <h2><a href="">Chirag Gupta</a></h2>
@@ -20,8 +20,8 @@
                 <nav>
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="/projects.html">Projects</a></li>
                         <li><a href="">Blog</a></li>
                     </ul>
                 </nav>
@@ -30,11 +30,11 @@
         <div class="hero">
             <div class="container">
                 <img src="./images/profile.png" alt="">
-                <h1>Hello, I am Chirag Gupta,<br> I am a web developer.</h1>
+                <h1>Hello, I am Chirag Gupta,<br> I am a <span>web developer</span>.</h1>
             </div>
         </div>
 
-        <section class="skills-section">
+        <section class="skills-section" id="skills">
             <header><img src="./images/laptop.png" alt=""><h1>Skills</h1></header>
             <ul>
                 <li><img src="./images/bullet.svg" alt=""> Html</li>
@@ -52,6 +52,17 @@
             <h3>I like to showcase my work, So you can see my projects hosted online.</h3>
             <button id="projects__button" href="" > See Projects</button>
         </section>
+        <section class="blogs__section">
+            <h1>Blogs</h1>
+            <h3>I like to document my journey and also share some interesting things that i learn on my way.</h3>
+            <button id="blogs__button">Check my blogs</button>
+        </section>
+        <footer class="social-presence">
+            <a href="https://github.com/Hardiegogo"><img src="./images/Github.png" alt=""></a>
+            <a href="www.linkedin.com/in/chirag-dev"><img src="./images/linkedin-logo.png" alt=""></a>
+            <a href="https://twitter.com/Chirag__dev"><img src="./images/twitter.svg" alt=""></a>
+
+        </footer>
     </div>  
 </body>
 </html>
