@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app .navigation {
+  padding: 1em;
+  background: #264653;
+}
+
+.app .navigation header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .navigation header .nav__heading {
+  width: 100%;
+}
+
+.app .navigation header .nav__heading a {
+  text-decoration: none;
+  color: white;
+}
+
+.app .navigation header nav {
+  width: 100%;
+}
+
+.app .navigation header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding-right: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.app .navigation header nav ul li {
+  margin-left: 0.5em;
+}
+
+.app .navigation header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+.app .hero {
+  background: #F4E3B8;
+}
+
+.app .hero .container {
+  padding: 1em;
+  text-align: center;
+}
+
+.app .hero .container img {
+  margin-top: 1em;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 15em;
+  border-radius: 75%;
+  border: 0.8em solid #F4A261;
+}
+
+.app .hero .container h1 {
+  font-weight: 400;
+}
+/*# sourceMappingURL=index.css.map */
