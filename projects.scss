@@ -26,15 +26,15 @@ body{
                 border: none;
                 margin-bottom: 1em;
                 min-width: 30vw;
-                .project__left{
-                    margin-right: 0.5em;
-                    img{
-                        object-fit: contain;
-                        width: 40vw;
-                        max-width: 20em;
-                        display: none;
-                    }
-                }
+                // .project__left{
+                //     margin-right: 0.5em;
+                //     img{
+                //         object-fit: contain;
+                //         width: 40vw;
+                //         max-width: 20em;
+                //         display: none;
+                //     }
+                // }
                 .project__right{
                     color: white;
                     text-align: left;
@@ -45,7 +45,9 @@ body{
                     p{
                         margin-top: 1vh;
                         font-size: 0.7em;
-                        margin-bottom: 1vh
+                        margin-bottom: 1vh;
+                        font-weight: lighter;
+                        
                     }
                     
 
