@@ -1,0 +1,95 @@
+body {
+  background-color: none;
+}
+
+.app .projects-area {
+  text-align: center;
+  padding: 1em;
+  height: 100%;
+}
+
+.app .projects-area h1 {
+  color: #012b3b;
+}
+
+.app .projects-area ol {
+  padding: 1em;
+}
+
+.app .projects-area ol li {
+  list-style: none;
+  padding: 1em;
+  background-color: #2A9D8F;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 1em;
+  min-width: 30vw;
+}
+
+.app .projects-area ol li .project__left {
+  margin-right: 0.5em;
+}
+
+.app .projects-area ol li .project__left img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 40vw;
+  max-width: 20em;
+  display: none;
+}
+
+.app .projects-area ol li .project__right {
+  color: white;
+  text-align: left;
+}
+
+.app .projects-area ol li .project__right small {
+  color: whitesmoke;
+}
+
+.app .projects-area ol li .project__right p {
+  margin-top: 1vh;
+  font-size: 0.7em;
+  margin-bottom: 1vh;
+}
+
+.app .projects-area ol li .project__right .live-demo {
+  padding: 0.5em;
+  border-radius: 10px;
+  border: none;
+  background-color: #012b3b;
+  color: white;
+  cursor: pointer;
+}
+
+.app .projects-area ol li .project__right .live-demo a {
+  text-decoration: none;
+  color: white;
+}
+
+.app .projects-area ol li .project__right .source-code {
+  padding: 0.5em;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: #012b3b;
+  cursor: pointer;
+}
+
+.app .projects-area ol li .project__right .source-code a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 435px) {
+  .project__left img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=projects.css.map */

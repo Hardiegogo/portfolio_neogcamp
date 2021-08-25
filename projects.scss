@@ -1,0 +1,90 @@
+body{
+    background-color: none;
+}
+
+.app{
+   
+    .projects-area{
+        text-align: center;
+        padding: 1em;
+        height: 100%;
+        h1{
+            color:#012b3b
+        }
+
+        ol{
+            
+            padding: 1em;
+            li{
+                list-style: none;
+                padding: 1em;
+                background-color: #2A9D8F;
+                margin: auto;
+                width: fit-content;
+                display: flex;
+                border-radius: 15px;
+                border: none;
+                margin-bottom: 1em;
+                min-width: 30vw;
+                .project__left{
+                    margin-right: 0.5em;
+                    img{
+                        object-fit: contain;
+                        width: 40vw;
+                        max-width: 20em;
+                        display: none;
+                    }
+                }
+                .project__right{
+                    color: white;
+                    text-align: left;
+                    small{
+                        color: whitesmoke;
+                        
+                    }
+                    p{
+                        margin-top: 1vh;
+                        font-size: 0.7em;
+                        margin-bottom: 1vh
+                    }
+                    
+
+                    .live-demo{
+                        padding: 0.5em;
+                        border-radius: 10px;
+                        border:none;
+                        background-color: #012b3b;
+                        color:white;
+                        cursor: pointer;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+
+                    .source-code{
+                        padding: 0.5em;
+                        border-radius: 10px;
+                        border:none;
+                        background-color: white;
+                        color: #012b3b;
+                        cursor: pointer;
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                    
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:435px) {
+    .project__left{
+        img{
+            display: none;
+        }
+    }
+}

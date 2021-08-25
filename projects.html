@@ -8,43 +8,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./projects.css">
 </head>
-<body style="background-color: #F4E3B8;">
+<body>
     <div class="app">
         <div class="navigation">
             <header>
                 <div class="nav__heading">
-                    <h2><a href="">Chirag Gupta</a></h2>
+                    <h2><a href="/index.html">Chirag Gupta</a></h2>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="/projects.html">Projects</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="/index.html">Home</a></li>
+                        
+                        <li><a href="/projects.html"><strong>Projects</strong</a></li>
+                        <li><a href="/Blogs.html">Blog</a></li>
                     </ul>
                 </nav>
             </header>
         </div>
 
-        <div class="projects-area">
+        <div class="projects-area" style="background-color: #F4E3B8;">
             <h1>Projects</h1>
-            <ul>
-                <li><div class="project__left">
-                    <img src="./images/Cli-app1.jpg" alt="">
+            <ol  reversed="reversed">
 
-                </div>
-                <div class="project__right">
-                    <h3>CLI App (Do you know me?)</h2>
-                    <small>August 2021</small>
-                    <p>A simple quiz to check how much do you know about me.</p>
-                    <button class="live-demo">Live demo</button>
-                    <button class="source-code">View code</button>
+                <li>
+                    <div class="project__left">
+                        <img src="./images/Cli-app1.jpg" alt="">
+                    </div>
+                    <div class="project__right">
+                        <h3>CLI App (Do you know me?)</h2>
+                        <small>August 2021</small>
+                        <p>A simple quiz to check how much do you know about me.</p>
+                        <button class="live-demo"><a href="https://replit.com/@ChiragGupta1/Do-you-know-me">Live demo</a></button>
+                        <button class="source-code"><a href="https://github.com/Hardiegogo/CLI-app">View Code</a></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="project__left">
+                        <img src="./images/Cli-app1.jpg" alt="">
+                    </div>
 
-                </div>
-            </li>
-            </ul>
+                    <div class="project__right">
+                        <h3>CLI App 2 (The big bang theory quiz)</h2>
+                            <small>August 2021</small>
+                            <p>Simple fun quiz about your favourite characters from bbt.</p>
+                            <button class="live-demo"><a href="https://replit.com/@ChiragGupta1/The-big-bang-theory-quiz">Live demo</a></button>
+                            <button class="source-code"><a href="https://github.com/Hardiegogo/CLI-app-2">View Code</a></button>
+                    </div>
+                </li>
+
+
+            </ol>
         </div>
+
+        <footer class="social-presence">
+            <a href="https://github.com/Hardiegogo"><img src="./images/Github.png" alt=""></a>
+            <a href="www.linkedin.com/in/chirag-dev"><img src="./images/linkedin-logo.png" alt=""></a>
+            <a href="https://twitter.com/Chirag__dev"><img src="./images/twitter.svg" alt=""></a>
+        
+        </footer>
     </div>
     
 </body>
