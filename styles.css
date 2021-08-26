@@ -177,6 +177,11 @@
   font-weight: 300;
 }
 
+.app .projects-section #projects__button a {
+  text-decoration: none;
+  color: white;
+}
+
 .app .blogs__section {
   text-align: center;
   padding: 2em;
@@ -198,11 +203,15 @@
   margin-top: 0.7em;
   border-radius: 25px;
   background: white;
-  color: #264653;
   border: none;
   cursor: pointer;
   font-size: 1.2em;
   font-weight: 300;
+}
+
+.app .blogs__section #blogs__button a {
+  text-decoration: none;
+  color: #264653;
 }
 
 .app footer {
