@@ -83,10 +83,27 @@ body{
     }
 }
 
-@media only screen and (max-width:435px) {
+@media only screen and (max-width:1080px) {
     .project__left{
         img{
             display: none;
         }
     }
+
+    .app{
+        .projects-area{
+            
+        ol{
+            margin: 0 auto;
+            width: fit-content;
+            li{
+                
+                width: 90%;
+                
+            }
+        }
+    }
+
+    }
+    
 }
