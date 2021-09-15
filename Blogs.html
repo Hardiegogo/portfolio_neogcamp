@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./blogs.css">
 </head>
+
 <body>
+
     <div class="app">
         <div class="navigation">
             <header>
@@ -22,13 +27,67 @@
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/index.html#skills">Skills</a></li>
                         <li><a href="/projects.html">Projects</a></li>
-                        <li><a href=""><strong>Blog</strong></a></li>
+                        <li><a href="/Blogs.html"><strong>Blog</strong></a></li>
                     </ul>
                 </nav>
             </header>
         </div>
-        <h1  style="margin-top: 10vh;text-align:center">Currently i am working on the blog section. It will be updated soon.</h1>
+
+        <div class="blogs-area">
+            <h1>Blog</h1>
+            <ol>
+                <li>
+                    <div class="blog">
+                        <h3>How code works in JavaScript part-2(understanding scope & scope chain)</h3>
+                        <small>September 2021</small>
+                        <p>Scope and scope chain are some fundamental concepts of JavaScript , which helps us understand
+                            how JavaScript works. Learning about these concepts can improve our debugging skills.
+
+                            
+                            Scope refers to a space or an area in which a particular variable is accessible. There are
+                            three types of scope in JS:
+
+                            Global scope,
+                            Function scope,
+                            Block scope.</p>
+                        <button class="live-demo"><a
+                                href="https://chirag-gupta.hashnode.dev/how-code-works-in-javascript-part-2understanding-scope-and-scope-chain">Read
+                                blog</a></button>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="blog">
+                        <h3>How code works in JavaScript (understanding execution contexts)</h3>
+                        <small>September 2021</small>
+                        <p>So we have all been there wrapping our heads around some javascript (quirkiest language of
+                            the world) specific topics. I am gonna take a chance and explain one of those topics to make
+                            it easier for you.
+
+                            Let's get started with Execution contexts!
+
+                            First we need to know that what is a javascript engine? In layman terms, It is an engine
+                            which every browser has and it runs our javascript code in the browser. Javascript engine
+                            starts with creating the global execution context.</p>
+                        <button class="live-demo"><a
+                                href="https://chirag-gupta.hashnode.dev/how-code-works-in-javascript-understanding-execution-contexts">Read
+                                blog</a></button>
+
+                    </div>
+                </li>
+
+
+            </ol>
+        </div>
+
+        <footer class="social-presence">
+            <a href="https://github.com/Hardiegogo"><img src="./images/Github.png" alt=""></a>
+            <a href="www.linkedin.com/in/chirag-dev"><img src="./images/linkedin-logo.png" alt=""></a>
+            <a href="https://twitter.com/Chirag__dev"><img src="./images/twitter.svg" alt=""></a>
+
+        </footer>
     </div>
-    
+
 </body>
+
 </html>
