@@ -21,15 +21,13 @@ ol li {
   padding: 1em;
   background-color: #2A9D8F;
   margin: auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 40vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-radius: 15px;
   border: none;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
   min-width: 30vw;
 }
 
